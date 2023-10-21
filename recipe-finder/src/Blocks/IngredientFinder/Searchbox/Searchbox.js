@@ -1,13 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Searchbox.css';
 
-export default function Searchbox() {
-    const [inputValue, setInputValue] = useState('');
-
+export default function Searchbox({ inputValue, setInputValue }) {
     const handleInputChange = (event) => {
         const value = event.target.value;
         setInputValue(value);
-        console.log(value);
     };
 
     return (
