@@ -1,0 +1,40 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background-color: white;
+    border-radius: 20px;
+    width: 200px;
+    height: 300px;
+    margin: 25px;
+}
+
+.card h1 {
+    color: #D9D9D9;
+    margin: 0;
+}
+.ingredient h1 {
+    font-size: 24px;
+    padding-top: 15px;
+    font-weight: 400;
+    color: black;
+}
+.ingredient p {
+    margin-top: 4px;
+    color: #626262;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 16px;
+    width: 175px;
+    height: 90px;
+}
+
+.card img {
+    border-radius: 20px 20px 0 0;
+    width: 200px;
+    min-height: 150px;
+    object-fit:cover;
+}
