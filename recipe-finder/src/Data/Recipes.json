@@ -1,20 +1,182 @@
 [
     {
-        "name": "Apple juice",
-        "desc": "Lorem ipsum dolor sit amet, Lo Rem Ipsum dolor sit amet.",
-        "img": "images/ingredients/Apple.png",
-        "req": [0]
-    },    
-    {
-        "name": "Apple pie",
-        "desc": "Lorem ipsum dolor sit amet, Lo Rem Ipsum dolor sit amet.",
-        "img": "images/ingredients/Apple.png",
-        "req": [0]
+        "name": "Basic Sugar Cookies",
+        "desc": "Classic sugar cookies, perfect for any occasion.",
+        "img": "images/recipes/recipe_placeholder.png",
+        "req": [0, 1, 2, 3]
     },
     {
-        "name": "Pineapple juice",
-        "desc": "Lorem ipsum dolor sit amet, Lo Rem Ipsum dolor sit amet.",
-        "img": "images/ingredients/Pineapple.png",
-        "req": [1]
+        "name": "Lemon Drizzle Cake",
+        "desc": "Moist lemon cake with a zesty drizzle on top.",
+        "img": "images/recipes/recipe_placeholder.png",
+        "req": [0, 1, 2, 3, 9]
+    },
+    {
+        "name": "Honey Butter Biscuits",
+        "desc": "Flaky biscuits with a touch of honey butter glaze.",
+        "img": "images/recipes/recipe_placeholder.png",
+        "req": [2, 4, 5, 8]
+    },
+    {
+        "name": "Lemon Poppy Seed Muffins",
+        "desc": "Tender muffins with a burst of lemon flavor.",
+        "img": "images/recipes/recipe_placeholder.png",
+        "req": [0, 1, 2, 4, 9]
+    },
+    {
+        "name": "Garlic Butter Rolls",
+        "desc": "Soft and garlicky rolls, perfect for any meal.",
+        "img": "images/recipes/recipe_placeholder.png",
+        "req": [1, 3, 6, 7]
+    },
+    {
+        "name": "Honey Lemon Pancakes",
+        "desc": "Fluffy pancakes drizzled with honey lemon syrup.",
+        "img": "images/recipes/recipe_placeholder.png",
+        "req": [1, 2, 4, 8, 9]
+    },
+    {
+        "name": "Classic Rice Pudding",
+        "desc": "Creamy rice pudding, a comforting dessert favorite.",
+        "img": "images/recipes/recipe_placeholder.png",
+        "req": [5, 4, 0, 2]
+    },
+    {
+        "name": "Lemon Blueberry Scones",
+        "desc": "Tender scones bursting with blueberries and lemon.",
+        "img": "images/recipes/recipe_placeholder.png",
+        "req": [1, 0, 3, 9, 2, 4]
+    },
+    {
+        "name": "Garlic Bread",
+        "desc": "Crusty bread infused with garlic and butter.",
+        "img": "images/recipes/recipe_placeholder.png",
+        "req": [1, 3, 6]
+    },
+    {
+        "name": "Honey Lemon Glazed Donuts",
+        "desc": "Golden donuts glazed with sweet honey lemon.",
+        "img": "images/recipes/recipe_placeholder.png",
+        "req": [1, 2, 4, 8, 9]
+    },
+    {
+        "name": "Fried Rice",
+        "desc": "Delicious fried rice with eggs, onions, and garlic.",
+        "img": "images/recipes/recipe_placeholder.png",
+        "req": [5, 2, 6, 7]
+    },
+    {
+        "name": "Onion and Garlic Frittata",
+        "desc": "Fluffy frittata with caramelized onions and garlic.",
+        "img": "images/recipes/recipe_placeholder.png",
+        "req": [2, 6, 7, 3]
+    },
+    {
+        "name": "Lemon Garlic Butter Shrimp",
+        "desc": "Juicy shrimp cooked in lemony garlic butter sauce.",
+        "img": "images/recipes/recipe_placeholder.png",
+        "req": [2, 3, 7, 9]
+    },
+    {
+        "name": "Lemon Garlic Pasta",
+        "desc": "Pasta tossed in a creamy lemon garlic sauce.",
+        "img": "images/recipes/recipe_placeholder.png",
+        "req": [1, 2, 4, 7, 3]
+    },
+    {
+        "name": "Creamy Garlic Mashed Potatoes",
+        "desc": "Smooth mashed potatoes infused with garlic and cream.",
+        "img": "images/recipes/recipe_placeholder.png",
+        "req": [6, 7, 3, 4]
+    },
+    {
+        "name": "Lemon Butter Chicken",
+        "desc": "Tender chicken in a luscious lemon butter sauce.",
+        "img": "images/recipes/recipe_placeholder.png",
+        "req": [2, 3, 7, 9]
+    },
+    {
+        "name": "Honey Garlic Salmon",
+        "desc": "Baked salmon glazed with honey garlic sauce.",
+        "img": "images/recipes/recipe_placeholder.png",
+        "req": [2, 7, 8, 9]
+    },
+    {
+        "name": "Egg Fried Rice",
+        "desc": "Classic fried rice with eggs and aromatic onions.",
+        "img": "images/recipes/recipe_placeholder.png",
+        "req": [5, 2, 6]
+    },
+    {
+        "name": "Lemon Butter Rice",
+        "desc": "Fluffy rice tossed in a zesty lemon butter.",
+        "img": "images/recipes/recipe_placeholder.png",
+        "req": [5, 3, 2, 7]
+    },
+    {
+        "name": "Onion and Garlic Quiche",
+        "desc": "Savory quiche with caramelized onions and garlic.",
+        "img": "images/recipes/recipe_placeholder.png",
+        "req": [1, 3, 2, 6, 7]
+    },
+    {
+        "name": "Honey Mustard Sauce",
+        "desc": "Sweet and tangy sauce, perfect for dipping.",
+        "img": "images/recipes/recipe_placeholder.png",
+        "req": [8, 9, 3, 2]
+    },
+    {
+        "name": "Lemon Garlic Aioli",
+        "desc": "Creamy garlic dip with a hint of lemon.",
+        "img": "images/recipes/recipe_placeholder.png",
+        "req": [7, 2, 9, 3]
+    },
+    {
+        "name": "Classic Bechamel Sauce",
+        "desc": "Smooth and versatile white sauce with a hint of garlic.",
+        "img": "images/recipes/recipe_placeholder.png",
+        "req": [3, 1, 4, 7]
+    },
+    {
+        "name": "Onion Gravy",
+        "desc": "Rich and flavorful gravy with caramelized onions.",
+        "img": "images/recipes/recipe_placeholder.png",
+        "req": [6, 3, 1, 7]
+    },
+    {
+        "name": "Lemon Butter Sauce",
+        "desc": "Buttery sauce with a burst of lemony freshness.",
+        "img": "images/recipes/recipe_placeholder.png",
+        "req": [3, 9, 7]
+    },
+    {
+        "name": "Honey Garlic Dip",
+        "desc": "Sweet and savory dip with a garlicky twist.",
+        "img": "images/recipes/recipe_placeholder.png",
+        "req": [8, 7, 9]
+    },
+    {
+        "name": "Lemon Butter Vinaigrette",
+        "desc": "Light and zesty vinaigrette with a touch of garlic.",
+        "img": "images/recipes/recipe_placeholder.png",
+        "req": [9, 7, 3]
+    },
+    {
+        "name": "Honey Lemon Sorbet",
+        "desc": "Refreshing sorbet with a delightful honey lemon flavor.",
+        "img": "images/recipes/recipe_placeholder.png",
+        "req": [8, 9, 7]
+    },
+    {
+        "name": "Lemon Curd",
+        "desc": "Smooth and tangy lemon curd, perfect for desserts.",
+        "img": "images/recipes/recipe_placeholder.png",
+        "req": [9, 0, 2, 3]
+    },
+    {
+        "name": "Honey Rice Krispies Treats",
+        "desc": "Classic Rice Krispies treats with a honey twist.",
+        "img": "images/recipes/recipe_placeholder.png",
+        "req": [5, 8, 2]
     }
 ]

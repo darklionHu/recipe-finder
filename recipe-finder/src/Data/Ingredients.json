@@ -1,12 +1,52 @@
 [
     {
-        "name": "Apple",
-        "desc": "Lorem ipsum dolor sit amet, Lo Rem Ipsum dolor sit amet.",
-        "img": "images/ingredients/Apple.png"
+        "name": "Sugar",
+        "desc": "Sweetener and essential ingredient in various desserts.",
+        "img": "images/ingredients/ingredient_placeholder.png"
     },
     {
-        "name": "Pineapple",
-        "desc": "Lorem ipsum dolor sit amet, Lo Rem Ipsum dolor sit amet.",
-        "img": "images/ingredients/Pineapple.png"
+        "name": "Flour",
+        "desc": "Versatile ingredient for baking and thickening sauces.",
+        "img": "images/ingredients/ingredient_placeholder.png"
+    },
+    {
+        "name": "Eggs",
+        "desc": "Protein-rich ingredient used in baking and cooking.",
+        "img": "images/ingredients/ingredient_placeholder.png"
+    },
+    {
+        "name": "Butter",
+        "desc": "Creamy dairy product used for cooking and baking.",
+        "img": "images/ingredients/ingredient_placeholder.png"
+    },
+    {
+        "name": "Milk",
+        "desc": "Dairy liquid used in a wide range of recipes.",
+        "img": "images/ingredients/ingredient_placeholder.png"
+    },
+    {
+        "name": "Rice",
+        "desc": "Staple grain used as a side dish or main course.",
+        "img": "images/ingredients/ingredient_placeholder.png"
+    },
+    {
+        "name": "Onions",
+        "desc": "Aromatic vegetable used as a base in many dishes.",
+        "img": "images/ingredients/ingredient_placeholder.png"
+    },
+    {
+        "name": "Garlic",
+        "desc": "Pungent bulb used to add flavor to various cuisines.",
+        "img": "images/ingredients/ingredient_placeholder.png"
+    },
+    {
+        "name": "Honey",
+        "desc": "Natural sweetener with a rich and distinct taste.",
+        "img": "images/ingredients/ingredient_placeholder.png"
+    },
+    {
+        "name": "Lemon",
+        "desc": "Citrus fruit known for its tangy and refreshing flavor.",
+        "img": "images/ingredients/ingredient_placeholder.png"
     }
 ]

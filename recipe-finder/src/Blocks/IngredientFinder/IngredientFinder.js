@@ -8,6 +8,7 @@ export default function IngredientFinder({ setIDs, IDs }) {
     
     const filteredIngredients = data.filter(ingredient => 
         ingredient.name.toLowerCase().includes(inputValue.toLowerCase())
+        && !IDs.includes(data.indexOf(ingredient))
     ).slice(0,4);
 
     function onClick(name) {

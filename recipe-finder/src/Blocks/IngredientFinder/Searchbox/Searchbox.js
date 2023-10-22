@@ -13,7 +13,7 @@ export default function Searchbox({ inputValue, setInputValue }) {
             type="text"
             value={inputValue}
             onChange={handleInputChange}
-            placeholder="Search..."
+            placeholder="What ingredients do you currently have in your household?"
         />
     );
 }
