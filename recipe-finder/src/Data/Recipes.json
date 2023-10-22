@@ -2,11 +2,19 @@
     {
         "name": "Apple juice",
         "desc": "Lorem ipsum dolor sit amet, Lo Rem Ipsum dolor sit amet.",
-        "img": "images/ingredients/Apple.png"
+        "img": "images/ingredients/Apple.png",
+        "req": [0]
     },    
     {
         "name": "Apple pie",
         "desc": "Lorem ipsum dolor sit amet, Lo Rem Ipsum dolor sit amet.",
-        "img": "images/ingredients/Apple.png"
+        "img": "images/ingredients/Apple.png",
+        "req": [0]
+    },
+    {
+        "name": "Pineapple juice",
+        "desc": "Lorem ipsum dolor sit amet, Lo Rem Ipsum dolor sit amet.",
+        "img": "images/ingredients/Pineapple.png",
+        "req": [1]
     }
 ]

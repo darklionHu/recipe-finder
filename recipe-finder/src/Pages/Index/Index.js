@@ -6,8 +6,6 @@ import "./Index.css"
 
 export default function Index() {
     const [IDs, setIDs] = useState([0]);
-    console.log(IDs);
-
     return (
         <>
             <div id="card-collector">
@@ -16,7 +14,7 @@ export default function Index() {
                 ))}
             </div>
             <IngredientFinder setIDs={setIDs} IDs={IDs}/>
-            <RecipeTab />
+            <RecipeTab IDs={IDs}/>
         </>
     )
 }
