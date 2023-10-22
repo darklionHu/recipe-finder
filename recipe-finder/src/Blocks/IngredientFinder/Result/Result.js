@@ -1,16 +1,18 @@
 import React from 'react';
 import './Result.css';
 
-export default function Result(props) {
-    const { img, name, desc } = props;
+function Result(props) {
+    const { img, name, desc, onClick } = props;
 
     return (
-        <div className="result-card">
+        <button onClick={() => onClick(name)} className="result-card">
             <img src={img} alt="Result"/>
             <div>
                 <h1>{name}</h1>
                 <p>{desc}</p>
             </div>
-        </div>
+        </button>
     );
 }
+
+export default Result;

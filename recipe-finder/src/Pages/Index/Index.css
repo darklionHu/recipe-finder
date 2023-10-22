@@ -1,6 +1,7 @@
 #card-collector {
     margin: 0 auto;
-    max-width: 1920px;
+    min-height: 350px;
+    max-width: 1320px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
