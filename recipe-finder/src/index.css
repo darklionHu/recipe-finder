@@ -17,3 +17,6 @@ code {
 button {
   border: 0px;
 }
+button:hover {
+  cursor:pointer
+}
